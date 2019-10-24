@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         startActivity(new Intent(this, InfoActivity.class));
         return super.onOptionsItemSelected(item);
+
     }
 
     private void addCandiesToDatabase(Candy[] candies) {
